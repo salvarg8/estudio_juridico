@@ -1,0 +1,48 @@
+.practice-areas {
+  background-color: var(--color-black);
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.area-card {
+  background-color: var(--color-dark-gray);
+  border: 1px solid rgba(145, 139, 126, 0.2);
+  padding: 3rem 2rem;
+  transition: all 0.3s ease;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.area-card:hover {
+  background-color: #363531;
+  border-color: var(--color-brown);
+}
+
+.area-content {
+  position: relative;
+  z-index: 2;
+}
+
+.area-card h3 {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.area-line {
+  width: 40px;
+  height: 2px;
+  background-color: var(--color-brown);
+  margin-top: 1.5rem;
+  transition: width 0.3s ease;
+}
+
+.area-card:hover .area-line {
+  width: 80px;
+}

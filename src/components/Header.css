@@ -1,0 +1,80 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1.5rem 0;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.header.scrolled {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-mb {
+  font-family: 'Great Vibes', cursive; /* Using a generic cursive for manuscript if not loaded */
+  font-size: 2.5rem;
+  color: var(--color-brown);
+  line-height: 1;
+}
+
+.logo-image {
+  width: 10%;
+  height: 10%;
+}
+
+.header.scrolled .logo-mb {
+  color: var(--color-brown);
+}
+
+.logo-text {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav a {
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav a:hover {
+  color: var(--color-taupe);
+}
+
+.header.scrolled .nav a:hover {
+  color: var(--color-brown);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* simple hidden nav for mobile for now */
+  }
+}

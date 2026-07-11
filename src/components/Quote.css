@@ -1,0 +1,38 @@
+.quote-section {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+}
+
+.quote-section::before {
+  content: '"';
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-serif);
+  font-size: 8rem;
+  color: rgba(145, 139, 126, 0.1);
+  line-height: 1;
+}
+
+.quote-text {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.4;
+  position: relative;
+  z-index: 2;
+}
+
+.quote-author {
+  color: var(--color-taupe);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
