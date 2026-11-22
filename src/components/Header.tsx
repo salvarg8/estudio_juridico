@@ -16,12 +16,12 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container header-container">
         <div className="logo">
-          <span className="logo-text">Miniotti Bordione & asoc.</span>
+          <span className="logo-text">Miniotti Bordione <span className="brand-amp">&</span> asoc.</span>
         </div>
         <nav className="nav">
           <ul>
             <li><a href="#areas">Áreas de Práctica</a></li>
-            {/* <li><a href="#equipo">Equipo</a></li> */}
+            <li><a href="#equipo">Equipo</a></li>
             {/* <li><a href="#novedades">Novedades</a></li> */}
             <li><a href="#contacto">Contacto</a></li>
           </ul>

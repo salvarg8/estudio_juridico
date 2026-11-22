@@ -1,17 +1,19 @@
-import React from 'react';
+﻿import React from 'react';
 import './Team.css';
+import paulaImg from '../images/paula-retrato.jpeg';
+import meliImg from '../images/meli-retrato.jpeg';
 
 const team = [
   {
     name: 'Miniotti Paula Karina',
     role: 'Abogada',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80',
+    image: paulaImg,
     description: 'Con foco en derecho civil y litigio estratégico. Cree que el acompañamiento honesto al cliente es la base de una práctica jurídica con sentido.'
   },
   {
     name: 'Bordione Melisa',
     role: 'Abogada · Mediadora',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80',
+    image: meliImg,
     description: 'Especialista en derecho laboral, daños y amparo de salud. Formada en mediación para acompañar conflictos con soluciones reales, más allá del expediente.'
   }
 ];

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-brand">
-          <div className="logo-mb">Miniotti Bordione & asoc.</div>
+          <div className="logo-mb">Miniotti Bordione <span className="brand-amp">&</span> asoc.</div>
           <p className="footer-desc">
             Asesoramiento jurídico estratégico, ético y orientado a resultados.
           </p>
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <h3>Contacto</h3>
           <ul>
             <li><MapPin size={18} /> Córdoba, Argentina</li>
-            <li><Phone size={18} /> +54 9 3515 30-6929</li>
+            <li><Phone size={18} /> +54 9 3515 30-6929 | +54 9 3517 05-1852</li>
             <li><Mail size={18} /> estudiominiottibordione@gmail.com</li>
             <li className="social-links" style={{ display: 'flex', gap: '15px', marginTop: '10px' }}>
               <a href="https://www.instagram.com/estudiominiottibordione/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

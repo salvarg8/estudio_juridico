@@ -64,41 +64,23 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
 
   return (
-    <section className="section contact-section" id="contacto">
-      <div className="container contact-container">
-        <div className="contact-info">
-          <h2 className="section-title" style={{ textAlign: 'left' }}>Contáctenos</h2>
-          <p className="contact-desc">
-            Estamos a su disposición para analizar su caso y ofrecerle el asesoramiento legal que necesita. Complete el formulario y nuestro equipo se comunicará con usted.
-          </p>
-          <div className="contact-details">
-            <div className="contact-item">
-              <strong>Teléfono:</strong>
-              <span>+54 9 3515 30-6929</span>
-            </div>
-            <div className="contact-item">
-              <strong>Email:</strong>
-              <span>estudiominiottibordione@gmail.com</span>
-            </div>
-            <div className="contact-item">
-              <strong>Horario:</strong>
-              <span>Lunes a Viernes, 9:00 - 18:00 hs</span>
-            </div>
-          </div>
-        </div>
+    <section className="section contact-section" id="contacto" >
+      <div className="container contact-container " >
+
         <div className="contact-form-wrapper">
           <form className="contact-form" onSubmit={handleSubmit}>
+            <label className="form-title">Formulario de Contacto</label>
             <div className="form-group">
               <label htmlFor="name">Nombre Completo</label>
-              <input type="text" id="name" name="name" required placeholder="Ej. Juan Pérez" />
+              <input type="text" id="name" name="name" required placeholder="" />
             </div>
             <div className="form-group">
               <label htmlFor="email">Correo Electrónico</label>
-              <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" />
+              <input type="email" id="email" name="email" required placeholder="" />
             </div>
             <div className="form-group">
               <label htmlFor="phone">Teléfono</label>
-              <input type="tel" id="phone" name="phone" placeholder="+54 9 11..." />
+              <input type="tel" id="phone" name="phone" placeholder="" />
             </div>
             <div className="form-group">
               <label htmlFor="message">Mensaje</label>

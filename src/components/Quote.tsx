@@ -6,7 +6,7 @@ const Quote: React.FC = () => {
     <section className="section quote-section">
       <div className="container quote-container">
         <blockquote className="quote-text">
-          "No hay justicia cuando solo uno de los dos entiende lo que está en juego."        
+          "Dos Abogadas, una misma convicción."        
           </blockquote>
         <div className="quote-author">— Miniotti Bordione & asoc.</div>
       </div>
