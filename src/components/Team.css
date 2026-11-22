@@ -69,6 +69,15 @@
   margin-bottom: 1rem;
 }
 
+.team-license {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-taupe);
+  letter-spacing: 0.5px;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
 .team-info p {
   color: var(--color-taupe);
   font-size: 0.95rem;

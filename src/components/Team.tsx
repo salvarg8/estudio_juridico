@@ -7,12 +7,14 @@ const team = [
   {
     name: 'Miniotti Paula Karina',
     role: 'Abogada',
+    license: 'MP 1-45579',
     image: paulaImg,
     description: 'Con foco en derecho civil y litigio estratégico. Cree que el acompañamiento honesto al cliente es la base de una práctica jurídica con sentido.'
   },
   {
     name: 'Bordione Melisa',
     role: 'Abogada · Mediadora',
+    license: 'MP 1-44945',
     image: meliImg,
     description: 'Especialista en derecho laboral, daños y amparo de salud. Formada en mediación para acompañar conflictos con soluciones reales, más allá del expediente.'
   }
@@ -32,6 +34,7 @@ const Team: React.FC = () => {
               <div className="team-info">
                 <h3>{member.name}</h3>
                 <span className="team-role">{member.role}</span>
+                <span className="team-license">{member.license}</span>
                 <p>{member.description}</p>
               </div>
             </div>
