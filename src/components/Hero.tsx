@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="container hero-content fade-in">
         <h1>Asesoramiento jurídico estratégico y personalizado.</h1>
         <p>
-          Acompañamos a nuestros clientes en la toma de decisiones clave,
+          Acompañamos a nuestros clientes en la toma de decisiones claves,
           brindando soluciones jurídicas eficaces, éticas y orientadas a
           resultados.
         </p>
